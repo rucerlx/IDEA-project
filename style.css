@@ -1,0 +1,161 @@
+#banner{
+    height: 100px;
+    border-bottom: 2px solid #ddd;
+}
+#head{
+    background-color: #00FFFF;
+    height:8%;
+    float:left;
+}
+#leftpage{
+    width:20%;
+    height:70%;
+    border-right:2px solid #ddd;
+    float:left;
+}
+#signin{
+    margin: 20px;
+    width:70%;
+    height: 50%;
+    padding:0px 6px 6px 6px;
+    font-size:13px;
+    font-family: "Hiragino Sans GB", "Microsoft YaHei",
+             "WenQuanYi Micro Hei", sans-serif;
+    border-bottom:2px solid #ddd;
+    border-top:2px solid #ddd;
+    border-left:2px solid #ddd;
+    border-right:2px solid #ddd;
+
+}
+#menu{
+    background-color: #00FFFF;
+    float: left
+    width: 100%
+    height: 30%;
+    border-bottom:2px solid #ddd;
+}
+#container{
+    float: left;
+    width:75%;
+    height:70%;
+}
+
+.manulist{
+    display: inline-block;
+    font-family: "Hiragino Sans GB", "Microsoft YaHei",
+             "WenQuanYi Micro Hei", sans-serif;
+    float: left;
+    height: 30%;
+    width: 5%;
+    font-size: 14px;
+}
+#footer{
+    width: 100%;
+    font: 14px/21px "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+    float: left; 
+    border-top: 2px solid #ddd;
+}
+#footer ul{
+    list-style-type:none;
+    float: left;
+    border-right: 1px solid #eee;
+}
+#footer li{
+    padding:12px; 
+    float: left;
+    border-bottom:1px solid #eee;
+    position:relative;
+}
+input[type="button"] {
+    font-family: "Hiragino Sans GB", "Microsoft YaHei",
+             "WenQuanYi Micro Hei", sans-serif;
+    display: inline-block;
+    background: #1291A9;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    font-size: 12px;
+    width:15%;
+    height:5%;
+}
+input[type="head"]{
+    background:#1291A9;
+    border-radius:5%;
+    border:none;
+    color:white;
+    width:20%;
+    height:70%;
+    text-align:center;
+}
+input[type="head"]:hover,
+input[type="head"]:focus {
+    background: #04477C;
+}
+input[type="button"]:active {
+    background: #666;
+}
+input[type="button"]:hover,
+input[type="button"]:focus {
+    background: #777;
+}
+
+input[type="button"]:active {
+    background: #666;
+}
+
+input[type="text"] {
+    font-size: 12px;
+    border-radius: 2px;
+    border: 1px solid #ddd;
+    width:90%;
+}
+input[type="search"]{ 
+    -webkit-appearance: none;
+   border-radius: 4px;
+    border: none;
+    color: white;
+    font-size: 12px;
+    width:15%;
+    height:5%;
+}
+input[type="submit"]{
+    margin:20px 2px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+     background-color: #68b12f;
+    background: -webkit-gradient(linear, left top, left bottom, from(#68b12f), to(#50911e));
+    background: -webkit-linear-gradient(top, #68b12f, #50911e);
+    background: -moz-linear-gradient(top, #68b12f, #50911e);
+    background: -ms-linear-gradient(top, #68b12f, #50911e);
+    background: -o-linear-gradient(top, #68b12f, #50911e);
+    background: linear-gradient(top, #68b12f, #50911e);
+    border: 1px solid #509111;
+    border-bottom: 1px solid #5b992b;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    box-shadow: inset 0 1px 0 0 #9fd574;
+    -webkit-box-shadow: 0 1px 0 0 #9fd574 inset ;
+    -moz-box-shadow: 0 1px 0 0 #9fd574 inset;
+    -ms-box-shadow: 0 1px 0 0 #9fd574 inset;
+    -o-box-shadow: 0 1px 0 0 #9fd574 inset;
+    color: white;
+    font-weight: bold;
+    padding: 5px 5px;
+    text-align: center;
+    text-shadow: 0 -1px 0 #396715;
+}
+input[type="submit"]:hover {
+    opacity:.85;
+    cursor: pointer; 
+}
+input[type="submit"]:active {
+    border: 1px solid #20911e;
+    box-shadow: 0 0 10px 5px #356b0b inset; 
+    -webkit-box-shadow:0 0 10px 5px #356b0b inset ;
+    -moz-box-shadow: 0 0 10px 5px #356b0b inset;
+    -ms-box-shadow: 0 0 10px 5px #356b0b inset;
+    -o-box-shadow: 0 0 10px 5px #356b0b inset;  
+}
+ .ribbon { position: absolute; top: 0; right: 0; border: 0; }
