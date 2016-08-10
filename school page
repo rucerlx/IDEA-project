@@ -1,0 +1,53 @@
+<html xmlns:wb="http://open.weibo.com/wb">
+	<head>
+    <meta charset="UTF-8"/>
+		<title>School</title>
+		<link href="school.css" rel="stylesheet">
+         <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+<body>
+    <div id="logo">
+        <h2>logo is here</h2>
+        </div>
+    <div id="name">
+        <h2>中国人民大学</h2>
+        <p>北京市 海淀区</p>
+        </div>
+    <div class="add"></div>
+    <div class="add"></div>
+    <input type="button" value="test"><input type="button" value="test"><input type="button" value="test"><input type="button" value="test">
+    <div id="leftpage">
+        <div class="box bg">
+        <button class="button button--winona button--border-thick button--round-l button--text-upper button--size-s button--text-thick" data-text="Glance"><span>Glance</span>      </button>
+        </div>
+         <input type="button" value="Majors">
+         <input type="button" value="Campus Life">
+         <input type="button" value="Paying">
+        <li color="#ddd">For Transfer Students</li>
+        <li color="#ddd">For International Students</li>
+        </div>
+    <div id="rightpage">
+
+
+
+        </div>
+
+    <div id="footer">
+        <ul>
+            <li>
+                <h2>Contact Us</h2>
+                <p>Email:000000</p>
+                <p>Weibo:000000</p>
+                <p>Address:00000</p>
+            </li>
+        <ul>
+            <li>
+                <h2>Follow Us</h2>
+               <wb:follow-button uid="1920827484" type="gray_1" width="67" height="24" >
+               </wb:follow-button>
+              <iframe src="https://ghbtns.com/github-btn.html?user=rucerlx&type=follow&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
+            </li>
+            </ul>
+        </div>
+	</body>
+</html>
